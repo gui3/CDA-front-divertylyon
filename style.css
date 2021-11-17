@@ -1,0 +1,190 @@
+/*
+Created by gui3 <gui.silvent@gmail.com>
+last update: 2021/11/17
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Lato, sans-serif;
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#eee, #559);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a {
+    padding: 1em;
+}
+
+a.no-decoration {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.hidden {
+    overflow: hidden;
+    height: 0;
+    width: 0;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.block {
+    display: block;
+}
+
+.vertical-center {
+    padding: 30vh 0;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-1 {
+    flex: 1;
+}
+
+.float-right {
+    float: right;
+}
+
+.font-dosis {
+    font-family: Dosis, sans-serif; 
+}
+
+a {
+    color: #70f;
+}
+a:visited {
+    color: #a5f;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus {
+    font-weight: 800;
+}
+a:active {
+    font-weight: 1200;
+}
+
+.color-1 {
+    color: #70f;
+}
+.color-2 {
+    color: #a5f;
+}
+.color-front {
+    color: #222;
+}
+.color-back {
+    color: #fff;
+}
+
+.svg-img {
+    min-height: 200px;
+    max-height: 500px;
+}
+
+#Petitefleur {
+    animation: flower 0.4s linear infinite;
+}
+#Grandefleur {
+    animation: flower 0.7s linear infinite;
+}
+
+@keyframes flower {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+    70% {
+        transform: scale(0.9) translate(5%, 5%);
+    }
+}
+
+#Ellipse_2 {
+    animation: text1 1.5s linear infinite;
+}
+
+@keyframes text1 {
+    0% {
+        transform: scale(0, 0);
+    }
+    32% {
+        transform: scale(0, 0);
+    }
+    33% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: translate(1, 1);
+    }
+}
+
+#Ellipse {
+    animation: text2 1.5s linear infinite;
+}
+
+@keyframes text2 {
+    0% {
+        transform: scale(0, 0);
+    }
+    65% {
+        transform: scale(0, 0);
+    }
+    66% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: translate(1, 1);
+    }
+}
+
+#Dialog {
+    animation: dialog 3s linear infinite;
+}
+
+@keyframes dialog {
+    0% {
+        transform: rotate(0);
+    }
+    65% {
+        transform: rotate(0);
+    }
+    70% {
+        transform: rotate(0.01turn);
+    }
+    78% {
+        transform: rotate(-0.01turn);
+    }
+    85% {
+        transform: rotate(0.01turn);
+    }
+    90% {
+        transform: rotate(-0.01turn);
+    }
+}
